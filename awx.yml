@@ -1,1 +1,4 @@
----
+- hosts: all
+  tasks:
+    - name: install rsync
+      yum: name=rsync state=present
